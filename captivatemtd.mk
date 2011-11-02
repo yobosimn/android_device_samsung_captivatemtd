@@ -99,9 +99,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
 	bdaddr_read
 
-# Service Mode Secret Code
+# Device-specific packages
 PRODUCT_PACKAGES += \
-	SamsungServiceMode
+	SamsungServiceMode \
+	AriesParts
 
 # apns config file
 PRODUCT_COPY_FILES += \
