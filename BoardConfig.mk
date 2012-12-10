@@ -20,6 +20,9 @@
 # Kernel Config
 TARGET_KERNEL_CONFIG := cyanogenmod_captivatemtd_defconfig
 
+# Bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/captivatemtd/bluetooth
+
 TARGET_OTA_ASSERT_DEVICE := captivate,captivatemtd,SGH-I896,SGH-I897
 
 # Import the aries-common BoardConfigCommon.mk
