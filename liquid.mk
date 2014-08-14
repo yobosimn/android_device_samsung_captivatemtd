@@ -1,5 +1,5 @@
-## Specify phone tech before including full_phone
-$(call inherit-product, vendor/cm/config/gsm.mk)
+# Inherit some common Liquid stuff.
+$(call inherit-product, vendor/liquid/config/common_phone.mk)
 
 # Release name
 PRODUCT_RELEASE_NAME := Captivate
